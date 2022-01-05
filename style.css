@@ -10,10 +10,15 @@ h2{
 }
 .text-color{
     color: whitesmoke;
+    
 }
-section{
+.orange-color{
+    color:orange;
+}
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
+    padding: 50px 60px 0px 60px;
 }
 .half-width{
     width: 50%;
@@ -29,6 +34,7 @@ section{
 }
 .heading-section-text{
     margin: 30px 10px;
+    padding: 50px 60px 0px 60px;
 }
 .text-style-paragraph{
     text-align: justify;
@@ -64,9 +70,13 @@ section{
     h1{
         margin:0;
     }
+    h2{
+        font-size: 28px;
+    }
     .half-width-heading-section-text{
         width: 40%;
-        margin-right:0 0 0 0 ;
+        margin-right:0 0 0 0;
+        padding:25px 60px 50px 60px;
     }
     div{
         padding: 50px 20px 0 120px;
@@ -80,3 +90,35 @@ section{
         background-position: right;
         background-position-y: -1%;
     }
+
+    .developer-item{
+        box-shadow: 10px 10px 40px gray;
+        width: 40%;
+        margin: 0 5% 0 5%;
+        padding:5% 5% 5% 5%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+.exp-bg{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 40%;
+
+}
+#full-web-exp{
+    border-left: 10px solid;
+    border-image: linear-gradient(to right top, #ff4d00, #fa812b, #f5a859, #f2c88d, #f3e4c7);
+    border-image-slice: 1;
+}
+#junior-web-exp{
+    border-left: 10px solid;
+    border-image: linear-gradient(to right top, #00bf72, #a8eb12);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
